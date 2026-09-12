@@ -9,49 +9,33 @@ description: 用于论文翻译、中文文献、阅读管理和附件整理的 
 
 ## 论文翻译
 
-<div class="grid cards" markdown>
+### PDF2zh Pro
 
--   :material-file-document-outline:{ .lg .middle } **PDF2zh Pro**
+在 Zotero 中发起论文 PDF 翻译，通过本地服务调用 PDF 翻译工具，并将译文导回文献库。
 
-    ---
+适合希望在文献管理流程中完成论文翻译的场景。
 
-    在 Zotero 中发起论文 PDF 翻译，通过本地服务调用 PDF 翻译工具，并将译文导回文献库。
-
-    适合希望在文献管理流程中完成论文翻译的场景。
-
-    [打开项目与安装说明](https://github.com/study-233/zotero-pdf2zh-pro)
-
-</div>
+[项目主页与安装说明](https://github.com/study-233/zotero-pdf2zh-pro)
 
 ## 文献与阅读管理
 
-<div class="grid cards" markdown>
+### Jasminum · 茉莉花
 
--   :material-text-box-search-outline:{ .lg .middle } **Jasminum · 茉莉花**
+识别和补充中文文献元数据，增强 Zotero 对中文文献的支持。
 
-    ---
+[项目主页](https://github.com/l0o0/jasminum)
 
-    识别和补充中文文献元数据，增强 Zotero 对中文文献的支持。
+### Ethereal Style
 
-    [打开项目](https://github.com/l0o0/jasminum)
+也称 Zotero Style。增强 Zotero 的界面与阅读管理，提供阅读进度、标签展示和已读状态等功能。
 
--   :material-bookmark-outline:{ .lg .middle } **Ethereal Style**
+[项目主页](https://github.com/MuiseDestiny/zotero-style)
 
-    ---
+### Zotero Attanger
 
-    也称 Zotero Style。增强 Zotero 的界面与阅读管理，提供阅读进度、标签展示和已读状态等功能。
+匹配、添加和重命名文献附件，并按规则移动或复制到指定文件夹。
 
-    [打开项目](https://github.com/MuiseDestiny/zotero-style)
-
--   :material-folder-move-outline:{ .lg .middle } **Zotero Attanger**
-
-    ---
-
-    匹配、添加和重命名文献附件，并按规则移动或复制到指定文件夹。
-
-    [打开项目](https://github.com/MuiseDestiny/zotero-attanger)
-
-</div>
+[项目主页](https://github.com/MuiseDestiny/zotero-attanger)
 
 ## 更多插件
 

@@ -9,14 +9,8 @@ description: 保存值得反复打开的网站和资源入口。
 
 ## 文献工具
 
-<div class="grid cards" markdown>
+### Zotero 中文社区插件商店
 
--   :material-puzzle-outline:{ .lg .middle } **Zotero 中文社区插件商店**
+查找 Zotero 插件及其项目、下载和说明入口。收藏链接保留了精选插件筛选条件。
 
-    ---
-
-    查找 Zotero 插件及其项目、下载和说明入口。收藏链接保留了精选插件筛选条件。
-
-    [打开插件商店](https://zotero-chinese.com/plugins/#tags=favorite)
-
-</div>
+[打开插件商店](https://zotero-chinese.com/plugins/#tags=favorite)

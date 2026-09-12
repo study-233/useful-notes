@@ -7,52 +7,32 @@ description: 实用工具、优质网站与教程，按用途整理，随用随�
 
 收集实用工具、优质网站，以及值得留下的教程。
 
-## 按用途查找
+可以从左侧目录按分类浏览，也可以使用顶部搜索查找内容。下面是目前收录的资源。
 
-<div class="grid cards" markdown>
+## 网页翻译
 
--   :material-translate:{ .lg .middle } **网页翻译**
+阅读外语网页时，把原文和译文放在一起。具体用途见[网页翻译](tools/translation.md)。
 
-    ---
+- [KISS Translator 简约翻译](https://github.com/fishjar/kiss-translator)：双语对照翻译，提供浏览器扩展与油猴脚本。
 
-    阅读外语网页时，把原文和译文放在一起。
+## Zotero 与论文阅读
 
-    [KISS Translator 简约翻译](https://github.com/fishjar/kiss-translator) · 浏览器扩展与油猴脚本
+从论文翻译到文献整理，让阅读流程更顺手。具体介绍见 [Zotero 与论文阅读](tools/zotero.md)。
 
-    [查看工具介绍](tools/translation.md)
+- [PDF2zh Pro](https://github.com/study-233/zotero-pdf2zh-pro)：论文 PDF 翻译。
+- [Jasminum](https://github.com/l0o0/jasminum)：中文文献元数据识别与补充。
+- [Ethereal Style](https://github.com/MuiseDestiny/zotero-style)：阅读进度、标签与已读状态管理。
+- [Attanger](https://github.com/MuiseDestiny/zotero-attanger)：文献附件整理。
 
--   :material-book-open-page-variant-outline:{ .lg .middle } **Zotero 与论文阅读**
+## 优质网站
 
-    ---
+保存值得反复打开的资源入口，完整介绍见[优质网站](websites.md)。
 
-    从论文翻译到文献整理，让阅读流程更顺手。
+- [Zotero 中文社区插件商店](https://zotero-chinese.com/plugins/#tags=favorite)：查找插件、下载和使用说明。
 
-    [PDF2zh Pro](https://github.com/study-233/zotero-pdf2zh-pro) · 论文翻译<br>
-    [Jasminum](https://github.com/l0o0/jasminum) · 中文文献<br>
-    [Ethereal Style](https://github.com/MuiseDestiny/zotero-style) · 阅读管理<br>
-    [Attanger](https://github.com/MuiseDestiny/zotero-attanger) · 附件管理
+## 教程与学习
 
-    [查看插件介绍](tools/zotero.md)
+学习指南和可以跟着操作的步骤，按主题整理在[教程与学习](tutorials/index.md)中。
 
--   :material-compass-outline:{ .lg .middle } **优质网站**
-
-    ---
-
-    保存值得反复打开的资源入口。
-
-    [Zotero 中文社区插件商店](https://zotero-chinese.com/plugins/#tags=favorite) · 查找插件、下载和说明
-
-    [浏览网站收藏](websites.md)
-
--   :material-notebook-outline:{ .lg .middle } **教程与学习**
-
-    ---
-
-    学习指南和可以跟着操作的步骤。
-
-    [CS 自学指南](https://csdiy.wiki/) · 计算机学习资源<br>
-    [ChatGPT 订阅教程](tutorials/chatgpt-subscription.md) · 应用商店订阅与取消续费
-
-    [查看全部教程](tutorials/index.md)
-
-</div>
+- [CS 自学指南](https://csdiy.wiki/)：计算机学习资源，包含课程、工具与书籍。
+- [ChatGPT 订阅教程](tutorials/chatgpt-subscription.md)：应用商店订阅与取消自动续费的操作步骤。

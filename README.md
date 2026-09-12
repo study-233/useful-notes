@@ -38,9 +38,21 @@ macOS / Linux 对应使用 `.venv/bin/python`。
 ## 添加工具或网址
 
 1. 打开相应分类页。
-2. 从 `templates/resource-card.md` 复制一张卡片，放进页面的 `<div class="grid cards" markdown>` 内。
-3. 填写名称、简介、用途和完整网址。列表项后续段落保留四个空格的缩进。
-4. 如果希望首页也能直接打开它，在 `docs/index.md` 的对应卡片内补充一行链接。
+2. 从 `templates/resource.md` 复制一个资源条目，放到页面中合适的位置。
+3. 用 `##` 写资源名称；如果放在已有主题下面，就用 `###`。下面写简介、用途和完整网址，标题会自动出现在右侧文章目录中。
+4. 如果希望首页也能直接打开它，在 `docs/index.md` 的对应分类下补充一条 Markdown 列表链接。
+
+例如，在 `docs/websites.md` 末尾添加：
+
+```markdown
+## arXiv
+
+浏览和查找计算机科学、数学等领域的预印本论文。
+
+[访问 arXiv](https://arxiv.org/)
+```
+
+需要同步首页时，在对应分类下添加 `- [arXiv](https://arxiv.org/)：预印本论文网站。` 即可。
 
 外部网址保留原始参数和 `#` 后的筛选内容。例如插件商店的 `#tags=favorite` 不应删除。
 
@@ -48,7 +60,7 @@ macOS / Linux 对应使用 `.venv/bin/python`。
 
 1. 复制 `templates/tutorial.md` 到 `docs/tutorials/`，使用简短英文文件名，例如 `zotero-backup.md`。
 2. 替换标题、简介和正文。使用 `##`、`###` 标题，右侧文章目录会自动生成。
-3. 在 `docs/tutorials/index.md` 加一张教程卡片，链接写为 `zotero-backup.md`。
+3. 在 `docs/tutorials/index.md` 的“操作教程”下，参照现有条目添加教程标题、简介和正文链接，例如 `[阅读全文](zotero-backup.md)`。
 4. 在 `mkdocs.yml` 的 `nav` → “教程与学习”下添加：
 
 ```yaml
