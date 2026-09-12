@@ -1,0 +1,62 @@
+:root {
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  --md-code-font: "Cascadia Code", Consolas, monospace;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #2563eb;
+  --md-accent-fg-color: #1d4ed8;
+  --md-typeset-a-color: #1d4ed8;
+  --md-default-bg-color: #fff;
+  --resource-border: #dce4f0;
+  --resource-hover: #f5f8ff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1d4ed8;
+  --md-accent-fg-color: #93b4ff;
+  --md-typeset-a-color: #9dbbff;
+  --md-default-bg-color: #161c28;
+  --resource-border: #354158;
+  --resource-hover: #1d2739;
+}
+
+.md-grid { max-width: 74rem; }
+.md-header { box-shadow: 0 1px 0 rgb(0 0 0 / 8%); }
+.md-typeset { font-size: .8rem; line-height: 1.85; }
+.md-nav { font-size: .7rem; }
+.md-nav__link--active { color: var(--md-typeset-a-color); }
+.md-typeset h1 { margin-bottom: .65em; font-size: 1.7rem; font-weight: 700; letter-spacing: -.025em; color: var(--md-default-fg-color); }
+.md-typeset h2 { font-size: 1.15rem; font-weight: 650; }
+.md-typeset h3 { font-size: .9rem; font-weight: 650; }
+.md-typeset .grid { grid-gap: .8rem; margin-top: 1.2rem; }
+.md-typeset .grid.cards > ul > li {
+  padding: 1rem;
+  border: 1px solid var(--resource-border);
+  border-radius: .5rem;
+  box-shadow: none;
+  transition: border-color .15s, background-color .15s;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  background: var(--resource-hover);
+  box-shadow: none;
+}
+.md-typeset .grid.cards > ul > li > hr { margin: .75rem 0; border-color: var(--resource-border); }
+.md-typeset .grid.cards .twemoji { color: var(--md-accent-fg-color); }
+.md-typeset .grid.cards .card-note { color: var(--md-default-fg-color--light); font-size: .7rem; }
+.md-typeset a { text-underline-offset: .2em; }
+.md-typeset a:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 4px; border-radius: 2px; }
+.md-typeset code { font-size: .85em; }
+.md-typeset table:not([class]) { font-size: .75rem; }
+.md-footer-meta { display: none; }
+
+@media (max-width: 600px) {
+  .md-typeset h1 { font-size: 1.4rem; }
+  .md-typeset .grid { grid-template-columns: minmax(0, 1fr); }
+  .md-typeset .grid.cards > ul > li { padding: .9rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > ul > li { transition: none; }
+}

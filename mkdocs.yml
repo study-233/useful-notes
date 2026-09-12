@@ -1,0 +1,78 @@
+site_name: 工具与笔记
+site_description: 收集实用工具、优质网站，以及值得留下的教程。
+site_url: https://study-233.github.io/useful-notes/
+repo_url: https://github.com/study-233/useful-notes
+repo_name: study-233/useful-notes
+edit_uri: edit/main/docs/
+use_directory_urls: true
+strict: true
+
+theme:
+  name: material
+  language: zh
+  font: false
+  logo: assets/favicon.svg
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+
+nav:
+  - 首页: index.md
+  - 实用工具:
+      - 网页翻译: tools/translation.md
+      - Zotero 与论文阅读: tools/zotero.md
+  - 优质网站: websites.md
+  - 教程与学习:
+      - 学习资源: tutorials/index.md
+      - ChatGPT 订阅教程: tutorials/chatgpt-subscription.md
