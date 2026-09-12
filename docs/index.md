@@ -29,6 +29,8 @@ description: 实用工具、优质网站与教程，按用途整理，随用随�
 保存值得反复打开的资源入口，完整介绍见[优质网站](websites.md)。
 
 - [Zotero 中文社区插件商店](https://zotero-chinese.com/plugins/#tags=favorite)：查找插件、下载和使用说明。
+- [AI 雷达（Codex Radar）](https://codexradar.com/)：Codex 模型评测、社区反馈与动态。
+- [RelayPulse](https://relaypulse.top/)：API 中转服务可用性监测。
 
 ## 教程与学习
 
